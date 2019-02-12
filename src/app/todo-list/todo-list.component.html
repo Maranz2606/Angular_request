@@ -1,0 +1,7 @@
+
+<h1> Titles </h1>
+<ul>
+  <li *ngFor='let todo of todos' (click)='selectedTitle(todo)'>
+      {{todo.title}}
+  </li>
+  </ul>
